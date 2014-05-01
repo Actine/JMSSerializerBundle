@@ -11,9 +11,15 @@
             "email": "schmittjoh@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type" : "git",
+            "url" : "https://github.com/mgiustiniani/serializer.git"
+         }
+    ],
     "require": {
         "php": ">=5.3.2",
-        "jms/serializer": "~0.11",
+        "jms/serializer": "dev-feature-allgroups",
         "symfony/framework-bundle": "~2.1"
     },
     "require-dev": {
